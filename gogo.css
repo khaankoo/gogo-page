@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica Neue, sans-serif;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  width: 1180px;
+  margin: auto;
+  flex-direction: column;
+  gap: 30px;
+}
+.navbar {
+  padding-top: 20px;
+  gap: 25px;
+  justify-content: space-between;
+}
+.links {
+  gap: 30px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.nav--information {
+  gap: 30px;
+}
+.dollar-icon {
+  color: green;
+  font-size: 20px;
+}
+.info {
+  gap: 10px;
+}
+.header {
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.header:hover {
+  background-image: url(./images/1170x594том.jpeg);
+  transition: 3s;
+}
+.header-informations {
+  gap: 20px;
+}
+.header-left {
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  padding: 50px 0 50px 50px;
+  background: linear-gradient(120deg, #eceeee, white);
+  gap: 30px;
+}
+.header-btn {
+  width: 174px;
+  height: 50px;
+  background: linear-gradient(-120deg, orange, red);
+  border: 5px;
+  border-radius: 15px;
+}
+.image-border {
+  border-radius: 5px;
+}
+.share-btn {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 15px;
+}
+.share-link {
+  gap: 30px;
+}
+.cards {
+  gap: 15px;
+  padding-top: 20px;
+}
+.size {
+  flex-direction: column;
+  gap: 20px;
+}
+.cardimg {
+  background-image: url(./images/Gogo\ Banner.jpeg);
+  height: 280px;
+  width: 300px;
+  position: relative;
+}
+.cardimg:hover {
+  background-image: url(./images/MicrosoftTeams-image\\(24\)\\(1\).png);
+}
+.stories {
+  gap: 20px;
+  margin-top: 40px;
+  flex-direction: column;
+}
+.story-hero {
+  gap: 10px;
+}
+.story-size {
+  width: 190px;
+  height: 230px;
+  background-image: url(images/ganbayasgah2023-65125fc60cfe4813107203.png);
+  background-size: cover;
+  gap: 50px;
+  padding: 10px;
+  flex-direction: column;
+  color: #fff;
+  align-items: baseline;
+}
+.story-blue {
+  background-color: #00b0f4;
+  color: #fff;
+  text-align: center;
+  width: auto;
+  height: 25px;
+  padding: 2px;
+}
+.story-2 {
+  background-image: url(./images/311073-24092023-1695536606-677347688-456-6512440f82f02344601714.jpeg);
+  background-size: cover;
+}
+.story-3 {
+  background-image: url(./images/munkhsaruul2023-65117556be8b2558587476.png);
+  background-size: cover;
+}
+.story-4 {
+  background-image: url(./images/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg);
+  background-size: cover;
+}
+.story-5 {
+  background-image: url(./images/311083-25092023-1695604621-343275141-djgk-6511318b8df5a834905703.jpeg);
+  background-size: cover;
+}
+.story-6 {
+  background-image: url(./images/311079-25092023-1695601312-629662252-Final66MGL-TJK1-1687524971-1687524971.jpeg);
+  background-size: cover;
+}
+.flexogno {
+  gap: 10px;
+  overflow-x: scroll 1200px;
+}
+.long-news-right {
+  font-size: 23px;
+  color: rgb(175, 175, 175);
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  border-right: 1px solid #888;
+  padding-right: 60px;
+}
+
+.day-pickers {
+  gap: 20px;
+}
+.blue-btn {
+  width: 105px;
+  height: 10px;
+  background-color: rgb(175, 175, 175);
+}
+.days:hover {
+  color: #407ce8;
+}
+.days:hover div {
+  background: #407ce8;
+}
+.days p {
+  width: 100px;
+  height: 30px;
+  gap: 5px;
+  font-size: 15px;
+  flex-direction: column;
+}
+.sheets {
+  gap: 20px;
+}
+.tsaash-btn {
+  font-size: 18px;
+  color: #000;
+  width: 740px;
+  height: 60px;
+  background-color: #f8f8f8;
+  justify-content: center;
+  border: 1px solid #f2f2f2;
+  padding: 20px;
+}
+.content {
+  width: 490px;
+  height: 150px;
+  font-size: 14px;
+  color: #888;
+  text-align: start;
+  gap: 18px;
+  flex-direction: column;
+}
+.share-btns2 {
+  justify-content: flex-start;
+  gap: 30px;
+}
+.main-news {
+  gap: 50px;
+}
+.news-bottom {
+  gap: 35px;
+}
+.aside {
+  gap: 50px;
+}
+.aside-news {
+  gap: 12px;
+  border-bottom: 1px dashed rgba(239, 233, 233, 0.06);
+}
+.trend-news {
+  background-color: #fce8d6;
+  width: 320px;
+  padding: 20px;
+  gap: 30px;
+}
+.size2 h2 {
+  font-size: 40px;
+  color: red;
+  width: 30px;
+  align-items: flex-start;
+  gap: 40px;
+}
+.trends p {
+  font-size: 14px;
+  margin-left: 15px;
+}
+.share-btns3 {
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 15px;
+}
+.trend-heros {
+  flex-direction: column;
+}
+.trend-discription {
+  gap: 10px;
+  flex-direction: column;
+}
+.speaking {
+  height: 542px;
+  width: 500px;
+  gap: 30px;
+  margin-top: 40px;
+}
+.item1 {
+  background-size: cover;
+  grid-area: header;
+  background-image: url(./images/gutal.jpeg);
+}
+.item2 {
+  grid-area: menu;
+  background-image: url(./images/elchin.jpeg);
+  background-size: cover;
+}
+.item3 {
+  grid-area: main;
+  background-image: url(./images/khoserdene.jpeg);
+  background-size: cover;
+}
+.item4 {
+  grid-area: right;
+  background-image: url(./images/gutal\ 23.png);
+  background-size: cover;
+}
+.item5 {
+  grid-area: footer;
+  background-image: url(./images/orchlon.jpeg);
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header menu main"
+    "header header right footer";
+  grid-gap: 15px;
+  width: 1220px;
+  height: 500px;
+}
+.bottom-cards {
+  width: 1220px;
+  justify-content: space-between;
+}
+.hev-mayg {
+  gap: 30px;
+}
+.heros {
+  gap: 8px;
+}
+.bottom-card {
+  height: 380px;
+  width: 270px;
+  border: 1px solid #f1f1f1;
+  font-size: 19px;
+  padding: 10px;
+  gap: 15px;
+}
+.technology {
+  gap: 30px;
+}
+.techno-hero {
+  gap: 10px;
+}
+.comic {
+  gap: 30px;
+}
+.bottom-bigger-card {
+  height: 350px;
+  width: 579px;
+  border: 1px solid #f1f1f1;
+  font-size: 19px;
+  padding: 10px;
+  gap: 15px;
+}
+.bottom-big2 {
+  width: 1220px;
+  justify-content: space-between;
+}
+.youtube-background {
+  width: 100vw;
+  background-color: #1a1a1a;
+}
+.youtube {
+  color: #fff;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+.yt-main {
+  gap: 30px;
+}
+.yt-cards {
+  flex-wrap: wrap;
+  gap: 5px;
+  flex-direction: row;
+}
+.yt-card {
+  height: 380px;
+  width: 270px;
+  font-size: 19px;
+  padding: 10px;
+  gap: 15px;
+}
+.yt-background {
+  background-image: url(./images/demjih.jpeg);
+  background-size: cover;
+  position: relative;
+  height: 220px;
+  width: 270px;
+  padding: 0%;
+}
+.yt-icon {
+  position: absolute;
+}
+.image2 {
+  background-image: url(./images/nymgerel.png);
+}
+.image3 {
+  background-image: url(./images/erdenet.jpeg);
+}
+.image4 {
+  background-image: url(./images/26.jpeg);
+}
+.image5 {
+  background-image: url(./images/huuk.jpeg);
+}
+.image6 {
+  background-image: url(./images/3500.jpeg);
+}
+.image7 {
+  background-image: url(./images//hiceel.jpeg);
+}
+.image8 {
+  background-image: url(./images/uran.jpeg);
+}
+.footer-top {
+  justify-content: space-between;
+  width: 1180px;
+  padding: 35px 0px;
+}
+.footer-links {
+  gap: 35px;
+}
+.footer-bottom {
+  justify-content: space-between;
+  padding: 25px 0px;
+}
