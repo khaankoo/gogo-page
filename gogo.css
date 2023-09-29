@@ -96,7 +96,7 @@ body {
   position: relative;
 }
 .cardimg:hover {
-  background-image: url(./images/MicrosoftTeams-image\\(24\)\\(1\).png);
+  /* background-image: url(./images/MicrosoftTeams-image\\(24\)\\(1\).png); */
 }
 .stories {
   gap: 20px;
