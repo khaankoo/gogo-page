@@ -39,6 +39,9 @@ body {
   color: green;
   font-size: 20px;
 }
+.header-informations {
+  gap: 20px;
+}
 .info {
   gap: 10px;
 }
@@ -46,13 +49,16 @@ body {
   flex-direction: column;
   gap: 20px;
   padding-top: 20px;
+  position: relative;
+  z-index: 3;
 }
-.header:hover {
-  background-image: url(./images/1170x594том.jpeg);
-  transition: 3s;
+.head-hover {
+  z-index: 3;
+  position: absolute;
+  opacity: 0;
 }
-.header-informations {
-  gap: 20px;
+.head-hover:hover {
+  opacity: 1;
 }
 .header-left {
   flex-direction: column;
@@ -61,6 +67,7 @@ body {
   padding: 50px 0 50px 50px;
   background: linear-gradient(120deg, #eceeee, white);
   gap: 30px;
+  border-radius: 5px;
 }
 .header-btn {
   width: 174px;
@@ -69,14 +76,59 @@ body {
   border: 5px;
   border-radius: 15px;
 }
+.header-image {
+  z-index: 3;
+  opacity: 4;
+}
+.empty-section {
+  overflow: hidden;
+  transition-timing-function:  all 2s ease-in-out;
+}
 .image-border {
-  border-radius: 5px;
+  border-radius: 6px;
+}
+.image-border:hover {
+  transform: scale(1.3);
+
+}
+.read {
+  background-color: rgba(20, 20, 20, 0.3);
+  color: #ffff;
+  font-size: 10px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
 }
 .share-btn {
   width: 70px;
   height: 30px;
   background-color: rgb(233, 233, 233);
   border-radius: 15px;
+}
+.share-btn:hover {
+  transition: all .4s ease-in-out;
+}
+.btns {
+  border: none;
+  background-color: #fffdfd;
+  line-height: 0;
+}
+.btns3 {
+  border: none;
+  line-height: 0;
+  background-color: #fce8d6;
+}
+.btns4 {
+  border: none;
+  line-height: 0;
+  background-color: #1a1a1a;
 }
 .share-link {
   gap: 30px;
@@ -93,10 +145,18 @@ body {
   background-image: url(./images/Gogo\ Banner.jpeg);
   height: 280px;
   width: 300px;
+}
+.card-hover {
+  overflow: hidden;
+  border-radius: 6px;
   position: relative;
 }
-.cardimg:hover {
-  /* background-image: url(./images/MicrosoftTeams-image\\(24\)\\(1\).png); */
+.card-hover:hover div {
+  opacity: 1;
+}
+.card-hover:hover .image-border{
+  transform: scale(1.2);
+  transition: 1000ms;
 }
 .stories {
   gap: 20px;
@@ -116,6 +176,17 @@ body {
   flex-direction: column;
   color: #fff;
   align-items: baseline;
+  border-radius: 6px;
+  justify-content: space-between;
+}
+.cut p{
+  max-height: 37px;
+  overflow: hidden;
+}
+.cut:hover {
+  transform: scaleX(1);
+  transition: all .4s ease-in-out;
+
 }
 .story-blue {
   background-color: #00b0f4;
@@ -124,10 +195,12 @@ body {
   width: auto;
   height: 25px;
   padding: 2px;
+  overflow: hidden;
 }
 .story-2 {
   background-image: url(./images/311073-24092023-1695536606-677347688-456-6512440f82f02344601714.jpeg);
   background-size: cover;
+  overflow: hid;
 }
 .story-3 {
   background-image: url(./images/munkhsaruul2023-65117556be8b2558587476.png);
@@ -147,7 +220,6 @@ body {
 }
 .flexogno {
   gap: 10px;
-  overflow-x: scroll 1200px;
 }
 .long-news-right {
   font-size: 23px;
@@ -158,13 +230,13 @@ body {
   border-right: 1px solid #888;
   padding-right: 60px;
 }
-
 .day-pickers {
   gap: 20px;
+  padding-bottom: 15px;
 }
 .blue-btn {
   width: 105px;
-  height: 10px;
+  height: 8px;
   background-color: rgb(175, 175, 175);
 }
 .days:hover {
@@ -179,6 +251,7 @@ body {
   gap: 5px;
   font-size: 15px;
   flex-direction: column;
+  text-align: center;
 }
 .sheets {
   gap: 20px;
@@ -192,6 +265,7 @@ body {
   justify-content: center;
   border: 1px solid #f2f2f2;
   padding: 20px;
+  transition: all 0.7s ease;
 }
 .content {
   width: 490px;
@@ -218,6 +292,18 @@ body {
 .aside-news {
   gap: 12px;
   border-bottom: 1px dashed rgba(239, 233, 233, 0.06);
+  width: 320px;
+  overflow: hidden;
+}
+.aside-hover {
+  transition-timing-function:  all 2s ease-in-out;
+  max-width: 320px;
+  overflow: hidden;
+  position: relative;
+}
+.aside-hover:hover {
+  transform: scale(1.3);
+  max-width: 320px;
 }
 .trend-news {
   background-color: #fce8d6;
@@ -255,31 +341,35 @@ body {
   margin-top: 40px;
 }
 .item1 {
-  background-size: cover;
   grid-area: header;
+  background-size: cover;
   background-image: url(./images/gutal.jpeg);
+  transition: all 0.7s ease;
 }
 .item2 {
   grid-area: menu;
   background-image: url(./images/elchin.jpeg);
   background-size: cover;
+  transition: all 0.7s ease;
 }
 .item3 {
   grid-area: main;
   background-image: url(./images/khoserdene.jpeg);
   background-size: cover;
+  transition: all 0.7s ease;
 }
 .item4 {
   grid-area: right;
   background-image: url(./images/gutal\ 23.png);
   background-size: cover;
+  transition: all 0.7s ease;
 }
 .item5 {
   grid-area: footer;
   background-image: url(./images/orchlon.jpeg);
   background-size: cover;
+  transition: all 0.7s ease;
 }
-
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -288,6 +378,7 @@ body {
   grid-gap: 15px;
   width: 1220px;
   height: 500px;
+  overflow: hidden;
 }
 .bottom-cards {
   width: 1220px;
@@ -391,6 +482,9 @@ body {
 }
 .footer-links {
   gap: 35px;
+}
+.footer-links div:hover {
+  color: #4a849a;
 }
 .footer-bottom {
   justify-content: space-between;
