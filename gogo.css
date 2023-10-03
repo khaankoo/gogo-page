@@ -71,7 +71,7 @@ body {
 }
 .header-btn {
   width: 174px;
-  height: 50px;
+  padding: 8px 3px;
   background: linear-gradient(-120deg, orange, red);
   border: 5px;
   border-radius: 15px;
@@ -444,6 +444,7 @@ body {
   gap: 15px;
 }
 .yt-background {
+  transition: all 0.5s ease;
   background-image: url(./images/demjih.jpeg);
   background-size: cover;
   position: relative;
