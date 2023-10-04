@@ -1,0 +1,62 @@
+@media screen and (max-width:1260px) {
+.card-res {
+    width: 385px;
+}
+.story-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 500px;
+ }
+.story-hover {
+    width: 380px;
+}
+.aside {
+    display: none;
+}
+ .cardimg {
+    display: none;
+    flex-direction: column;
+ }   
+ .bottom-cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 810px;
+ }
+ .bottom-card {
+    width: 575px;
+ }
+ .bottom-big2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+ }
+ .yt-cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 1620px;
+ }
+ .grid-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 1500px;
+ }
+ .res-img {
+    width: 584px;
+ }
+ .yt-card {
+    width: 575px;
+    height: 350px;
+ }
+ .yt-background {
+    width: 560px;
+ }
+ .sheet-res {
+    width: 640px;
+    height: 190px;
+ }
+ .tsaash-btn {
+    width: 1155px;
+ }
+ .bottom-res {
+    width: 575px;
+ }
+}

@@ -75,6 +75,7 @@ body {
   background: linear-gradient(-120deg, orange, red);
   border: 5px;
   border-radius: 15px;
+  color: #ffff;
 }
 .header-image {
   z-index: 3;
@@ -87,9 +88,8 @@ body {
 .image-border {
   border-radius: 6px;
 }
-.image-border:hover {
+.image-border:hover  {
   transform: scale(1.3);
-
 }
 .read {
   background-color: rgba(20, 20, 20, 0.3);
@@ -162,31 +162,27 @@ body {
   gap: 20px;
   margin-top: 40px;
   flex-direction: column;
+  overflow: hidden;
 }
 .story-hero {
   gap: 10px;
 }
-.story-size {
-  width: 190px;
-  height: 230px;
-  background-image: url(images/ganbayasgah2023-65125fc60cfe4813107203.png);
-  background-size: cover;
-  gap: 50px;
-  padding: 10px;
-  flex-direction: column;
-  color: #fff;
-  align-items: baseline;
-  border-radius: 6px;
-  justify-content: space-between;
+.story-list {
+  gap: 20px;
 }
-.cut p{
-  max-height: 37px;
+.relative {
   overflow: hidden;
 }
-.cut:hover {
-  transform: scaleX(1);
-  transition: all .4s ease-in-out;
-
+.story-hover:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+.story-size {
+  justify-content: space-between;
+  position: absolute;
+  padding: 10px;
+  color: #fff;
+  height: 230px;
 }
 .story-blue {
   background-color: #00b0f4;
@@ -197,29 +193,10 @@ body {
   padding: 2px;
   overflow: hidden;
 }
-.story-2 {
-  background-image: url(./images/311073-24092023-1695536606-677347688-456-6512440f82f02344601714.jpeg);
-  background-size: cover;
-  overflow: hid;
-}
-.story-3 {
-  background-image: url(./images/munkhsaruul2023-65117556be8b2558587476.png);
-  background-size: cover;
-}
-.story-4 {
-  background-image: url(./images/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg);
-  background-size: cover;
-}
-.story-5 {
-  background-image: url(./images/311083-25092023-1695604621-343275141-djgk-6511318b8df5a834905703.jpeg);
-  background-size: cover;
-}
-.story-6 {
-  background-image: url(./images/311079-25092023-1695601312-629662252-Final66MGL-TJK1-1687524971-1687524971.jpeg);
-  background-size: cover;
-}
-.flexogno {
-  gap: 10px;
+.discription p{
+  overflow: hidden;
+  width: 160px;
+  height: 40px;
 }
 .long-news-right {
   font-size: 23px;
@@ -280,14 +257,15 @@ body {
   justify-content: flex-start;
   gap: 30px;
 }
-.main-news {
-  gap: 50px;
-}
 .news-bottom {
   gap: 35px;
 }
 .aside {
   gap: 50px;
+}
+.aside-top {
+  margin-left: 39px;
+  gap: 30px;
 }
 .aside-news {
   gap: 12px;
@@ -322,6 +300,9 @@ body {
   font-size: 14px;
   margin-left: 15px;
 }
+.trends:hover {
+  transform: scale(1.03);
+}
 .share-btns3 {
   justify-content: flex-start;
   gap: 20px;
@@ -340,44 +321,55 @@ body {
   gap: 30px;
   margin-top: 40px;
 }
+.grid-img{
+  width: 100%;
+  height: 100%;
+}
+.grid-img-1{
+  width: 100%;
+  height: 100%;
+}
+
+.grid-img:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+}
 .item1 {
   grid-area: header;
-  background-size: cover;
-  background-image: url(./images/gutal.jpeg);
   transition: all 0.7s ease;
+  overflow: hidden;
 }
 .item2 {
   grid-area: menu;
-  background-image: url(./images/elchin.jpeg);
-  background-size: cover;
   transition: all 0.7s ease;
+  overflow: hidden;
 }
 .item3 {
   grid-area: main;
-  background-image: url(./images/khoserdene.jpeg);
-  background-size: cover;
   transition: all 0.7s ease;
+  overflow: hidden;
 }
 .item4 {
   grid-area: right;
-  background-image: url(./images/gutal\ 23.png);
-  background-size: cover;
   transition: all 0.7s ease;
+  overflow: hidden;
 }
 .item5 {
   grid-area: footer;
-  background-image: url(./images/orchlon.jpeg);
-  background-size: cover;
   transition: all 0.7s ease;
+  overflow: hidden;
 }
 .grid-container {
   display: grid;
   grid-template-areas:
-    "header header menu main"
-    "header header right footer";
+  "header header menu main"
+  "header header right footer";
   grid-gap: 15px;
   width: 1220px;
   height: 500px;
+  overflow: hidden;
+}
+.overflow-hid{
   overflow: hidden;
 }
 .bottom-cards {
