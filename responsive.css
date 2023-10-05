@@ -1,14 +1,54 @@
 @media screen and (max-width:1260px) {
+.navbar {
+   width: 1100px;
+   padding: 0 0 0 30px;
+}
+.info-1 {
+   width: 50px;
+}
+.info {
+   flex-direction: column;
+}
+.info-icon {
+   width: 25px;
+}
+.header {
+   width: 1130px;
+   padding: 0 0 0 30px;
+}
+.header-image {
+   display: none;
+}
+.head-hover {
+   display: none;
+}
+.header-left {
+   width: 500px;
+}
+.empty {
+   width: 530px;
+}
+.cards {
+   gap: 5px;
+   width: 1100px;
+   padding-left: 40px;
+}
 .card-res {
-    width: 385px;
+ width: 350px;
+}
+.size {
+   width: 380px;
+}
+.stories {
+   padding-left: 30px;
 }
 .story-list {
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 500px;
- }
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 500px;
+}
 .story-hover {
-    width: 380px;
+   width: 350px;
 }
 .aside {
     display: none;
@@ -17,46 +57,553 @@
     display: none;
     flex-direction: column;
  }   
- .bottom-cards {
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 810px;
- }
- .bottom-card {
-    width: 575px;
- }
- .bottom-big2 {
-    flex-wrap: wrap;
-    flex-direction: column;
- }
- .yt-cards {
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 1620px;
- }
- .grid-container {
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 1500px;
- }
- .res-img {
-    width: 584px;
- }
- .yt-card {
-    width: 575px;
-    height: 350px;
- }
- .yt-background {
-    width: 560px;
- }
  .sheet-res {
-    width: 640px;
-    height: 190px;
- }
- .tsaash-btn {
-    width: 1155px;
- }
- .bottom-res {
-    width: 575px;
- }
+    width: 600px;
+    height: 220px;
+}
+.content {
+   font-size: 17px;
+}
+.tsaash-btn {
+   width: 1100px;
+}
+.bottom-res {
+   width: 575px;
+}
+.bottom-cards {
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 810px;
+   width: 1100px;
+}
+.bottom-card {
+   width: 500px;
+}
+.yt-cards {
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 1620px;
+}
+.speaking {
+   display: none;
+}
+.res-img {
+     width: 584px;
+}
+.hev-mayg {
+      display: none;
+}
+.technology {
+      display: none;
+}
+.comic {
+   width: 1160px;
+   padding-left: 25px;
+}
+.bottom-big2 {
+   width: 440px;
+   gap: 10px;
+}
+.bottom-bigger-card {
+   width: 550px;
+}
+.youtube-background {
+   width: 1180px;
+}
+.yt-card {
+   width: 550px;
+   height: 350px;
+}
+.yt-background {
+   width: 560px;
+}
+.footer-top {
+   width: 1000px;
+   padding-left: 30px;
+}
+.footer-bottom {
+   width: 800px;
+   padding-left: 70px;
+}
+.footer-links {
+   flex-wrap: wrap;
+   width: 800px;
+}
+.long-news-right {
+   border-right: none;
+   padding-left: 30px;
+   width: 1100px;
+   padding: 0 0 0 40px;
+}
+}
+@media screen and (max-width:1100px) {
+.section {
+   width: 100%;
+}
+.navbar {
+   width: 1100px;
+   padding: 0 0 0 50px;
+   justify-content: flex-start;
+   gap: 50px;
+} 
+.nav--btn {
+   display: none;
+}
+.info-1 {
+   width: 50px;
+}
+.info {
+   flex-direction: row;
+}
+.info-icon {
+   width: 25px;
+}
+.header {
+   width: 1050px;
+   padding: 0 0 0 40px;
+}
+.header-image {
+   display: none;
+}
+.head-hover {
+   display: none;
+}
+.header-left {
+   width: 500px;
+   padding: 30px 0 30px 30px;
+}
+.empty {
+   width: 485px;
+   height: 360px;
+}
+.cards {
+   gap: 5px;
+   width: 1050px;
+   padding-left: 40px;
+   }
+.card-res {
+   width: 340px;
+}
+.size {
+   width: 380px;
+}
+.stories {
+   display: none;
+}
+.aside {
+   display: none;
+}
+.cardimg {
+   display: none;
+   flex-direction: column;
+}   
+.sheet-res {
+   width: 500px;
+   height: 220px;
+}
+.content {
+   font-size: 17px;
+}
+.tsaash-btn {
+   width: 1050px;
+}
+.bottom-res {
+   width: 575px;
+}
+.bottom-cards {
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 810px;
+   width: 1100px;
+}
+.bottom-card {
+   width: 480px;
+}
+.yt-cards {
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 1620px;
+}
+.speaking {
+   display: none;
+}
+.res-img {
+   width: 584px;
+}
+.hev-mayg {
+   padding: 0 0 0 50px;
+}
+.technology {
+   padding-left: 50px;
+   width: 1050px;
+}
+.comic {
+   width: 1050px;
+   padding-left: 50px;
+}
+.bottom-big2 {
+   width: 440px;
+   gap: 10px;
+}
+.bottom-bigger-card {
+   width: 500px;
+}
+.yt-main {
+   padding: 0 0 0 50px;
+   width: 1050px;
+}
+.youtube-background {
+   width: 1100px;
+}
+.yt-card {
+   width: 450px;
+   height: 350px;
+}
+.yt-background {
+   width: 450px;
+}
+.footer {
+   width: 100%;
+}
+.footer-top {
+   width: 1000px;
+   padding-left: 30px;
+}
+.footer-bottom {
+   width: 800px;
+   padding-left: 70px;
+}
+.footer-links {
+   flex-wrap: wrap;
+   width: 800px;
+}
+.long-news-right {
+   border-right: none;
+   padding-left: 30px;
+   width: 1100px;
+   padding: 0 0 0 40px;
+}
+}
+@media screen and (max-width:800px) {
+   .section {
+      width: 650px;
+   }
+   .upper {
+      padding: 0 0 0 50px;
+   }
+   .navbar {
+      width: 1100px;
+      padding: 0 0 0 50px;
+      justify-content: flex-start;
+      gap: 80px;
+   } 
+   .nav--btn {
+      display: none;
+   }
+   .info-1 {
+      width: 50px;
+   }
+   .info {
+      flex-direction: row;
+   }
+   .info-icon {
+      width: 25px;
+   }
+   .header {
+      width: 500px;
+      padding: 0 0 0 40px;
+   }
+   .header-image {
+      display: none;
+   }
+   .head-hover {
+      display: none;
+   }
+   .header-left {
+      width: 550px;
+      padding: 30px 0 30px 30px;
+   }
+   .empty {
+      display: none;
+   }
+   .cards {
+      display: none;
+      }
+   .stories {
+      display: none;
+   }
+   .aside {
+      display: none;
+   }
+   .cardimg {
+      display: none;
+      flex-direction: column;
+   }   
+   .day-pickers p{
+      gap: 5px;
+      justify-content: flex-start;
+   }
+   .days {
+      width: 80px;
+   }
+   .blue-btn {
+      width: 85px;
+   }
+   .news-bottom {
+      width: 700px;
+   }
+   .sheet-res {
+      width: 300px;
+      height: 220px;
+   }
+   .content {
+      font-size: 14px;
+      width: 300px;
+   }
+   .tsaash-btn {
+      width: 640px;
+   }
+   .bottom-res {
+      width: 575px;
+   }
+   .bottom-cards {
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 810px;
+      width: 800px;
+   }
+   .bottom-card {
+      width: 450px;
+   }
+   .speaking {
+      display: none;
+   }
+   .res-img {
+      width: 584px;
+   }
+   .hev-mayg {
+      padding: 0 0 0 50px;
+   }
+   .technology {
+      padding-left: 50px;
+      width: 1050px;
+   }
+   .comic {
+      display: none;
+   }
+   .bottom-big2 {
+      width: 440px;
+      gap: 10px;
+   }
+   .bottom-bigger-card {
+      width: 500px;
+   }
+   .youtube {
+      width: 650px;
+   }
+   .yt-cards {
+      height: 3000px;
+      width: 600px;
+      flex-direction: column;
+   }
+   .yt-main {
+      padding: 0 0 0 50px;
+      width: 650px;
+   }
+   .youtube-background {
+      width: 700px;
+   }
+   .yt-card {
+      width: 550px;
+      height: 350px;
+   }
+   .yt-background {
+      width: 550px;
+   }
+   .footer {
+      width: 100%;
+   }
+   .footer-top {
+      width: 650px;
+      padding-left: 30px;
+   }
+   .footer-bottom {
+      width: 600px;
+      flex-direction: column;
+   }
+   .footer-links {
+      flex-wrap: wrap;
+      width: 400px;
+      flex-direction: column;
+   }
+   .long-news-right {
+      border-right: none;
+      padding-left: 30px;
+      width: 1100px;
+      padding: 0 0 0 40px;
+   }
+}
+@media screen and (max-width:480px) {
+   .section {
+      width: 480px;
+   }
+   .upper {
+      padding: 0 0 0 50px;
+   }
+   .navbar {
+      width: 1100px;
+      padding: 0 0 0 50px;
+      justify-content: flex-start;
+      gap: 80px;
+   } 
+   .nav--btn {
+      display: none;
+   }
+   .info-1 {
+      width: 50px;
+   }
+   .info {
+      flex-direction: row;
+   }
+   .info-icon {
+      width: 25px;
+   }
+   .header {
+      width: 500px;
+      padding: 0 0 0 40px;
+   }
+   .header-image {
+      display: none;
+   }
+   .head-hover {
+      display: none;
+   }
+   .header-left {
+      width: 550px;
+      padding: 30px 0 30px 30px;
+   }
+   .empty {
+      display: none;
+   }
+   .cards {
+      display: none;
+      }
+   .stories {
+      display: none;
+   }
+   .aside {
+      display: none;
+   }
+   .cardimg {
+      display: none;
+      flex-direction: column;
+   }   
+   .day-pickers p{
+      gap: 5px;
+      justify-content: flex-start;
+   }
+   .days {
+      width: 80px;
+   }
+   .blue-btn {
+      width: 85px;
+   }
+   .news-bottom {
+      width: 400px;
+   }
+   .sheets {
+      flex-direction: column;
+   }
+   .sheet-res {
+      width: 300px;
+      height: 220px;
+   }
+   .content {
+      font-size: 14px;
+      width: 250px;
+      padding-left: 30px;
+   }
+   .tsaash-btn {
+      width: 640px;
+   }
+   .bottom-res {
+      width: 575px;
+   }
+   .bottom-cards {
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 810px;
+      width: 800px;
+   }
+   .bottom-card {
+      width: 450px;
+   }
+   .speaking {
+      display: none;
+   }
+   .res-img {
+      width: 584px;
+   }
+   .hev-mayg {
+      padding: 0 0 0 50px;
+   }
+   .technology {
+      padding-left: 50px;
+      width: 1050px;
+   }
+   .comic {
+      display: none;
+   }
+   .bottom-big2 {
+      width: 440px;
+      gap: 10px;
+   }
+   .bottom-bigger-card {
+      width: 500px;
+   }
+   .youtube {
+      width: 650px;
+   }
+   .yt-cards {
+      height: 3000px;
+      width: 600px;
+      flex-direction: column;
+   }
+   .yt-main {
+      padding: 0 0 0 50px;
+      width: 650px;
+   }
+   .youtube-background {
+      width: 700px;
+   }
+   .yt-card {
+      width: 550px;
+      height: 350px;
+   }
+   .yt-background {
+      width: 550px;
+   }
+   .footer {
+      width: 100%;
+   }
+   .footer-top {
+      width: 300px;
+      padding-left: 30px;
+      flex-direction: column;
+   }
+   .footer-bottom {
+      width: 300px;
+      flex-direction: column;
+   }
+   .footer-links {
+      flex-wrap: wrap;
+      width: 400px;
+      flex-direction: column;
+   }
+   .long-news-right {
+      border-right: none;
+      padding-left: 30px;
+      width: 1100px;
+      padding: 0 0 0 40px;
+   }
 }

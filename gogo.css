@@ -367,7 +367,6 @@ body {
   grid-gap: 15px;
   width: 1220px;
   height: 500px;
-  overflow: hidden;
 }
 .overflow-hid{
   overflow: hidden;
